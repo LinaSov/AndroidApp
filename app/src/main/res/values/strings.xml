@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyWorkout</string>
+    <string name="look_name">База упражнения</string>
+    <string name="create_name">Создать тренеровку</string>
+    <string name="add_name">Добавить упражнение</string>
+    <string name="add_worc">Упражнение</string>
+    <string name="name_name">Название</string>
+    <string name="description_name">Описание упражнения</string>
+    <string name="calories_name">Кол-во колрий в 1мин</string>
+    <string name="classification_name">Классификация</string>
+    <string name="back_name">Назад</string>
+    <string name="dany_name">Введите данные</string>
+    <string name="cardio_name">Кардио упражнения</string>
+    <string name="strong_name">Силовые упражнения</string>
+    <string name="balet_name">Балетный станок</string>
+    <string name="streiching_name">Упражнения для растяжка</string>
+    <string name="random_name">Сгенерировать тренеровку</string>
+    <string name="trening_name">Приступить к тренеровке</string>
+    <string name="duration_hint">Введите длительность (в минутах)</string>
+    <string name="generate_button_text">Сгенерировать</string>
+    <string name="auto_complete_description">Введите название упражнения</string>
+</resources>

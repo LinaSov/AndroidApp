@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityListBasa">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivityListBasa">
+
+    <ScrollView
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="1dp"
+        android:contentDescription="@string/add_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/buttonCardio"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:contentDescription="@string/cardio_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/free_icon_treadmill_8623378"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="-3dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cardio_name"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/buttonsSrong"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:contentDescription="@string/strong_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/free_icon_workout_9992358"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/strong_name"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/buttonStreching"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:contentDescription="@string/streiching_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/free_icon_female_streching_legs_and_arm_82682"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="486dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/streiching_name"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/buttonBalet"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:contentDescription="@string/balet_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/free_icon_ballet_2104663"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="323dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/balet_name"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonAddList"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/add_name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="657dp" />
+
+            <Button
+                android:id="@+id/buttonBackList"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/back_name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="463dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

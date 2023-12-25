@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAdd">
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="644dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewCreate"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="@string/add_name"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_name"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/dany_name"
+            android:ems="10"
+            android:hint="@string/dany_name"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="bottom"
+            android:text="@string/description_name"
+            android:textAlignment="gravity"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:contentDescription="@string/dany_name"
+            android:ems="10"
+            android:hint="@string/dany_name"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewClass"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:gravity="bottom"
+            android:text="@string/classification_name"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinnerClasifik"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <TextView
+            android:id="@+id/textViewCollorien"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:gravity="bottom"
+            android:hint="@string/dany_name"
+            android:text="@string/calories_name"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextCollorirn"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:ems="10"
+            android:inputType="number"
+            android:contentDescription="@string/dany_name"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonAddBass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dany_name"
+            android:text="@string/add_name"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back_name"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
